@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9230B7C2526A08D00B74E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9230B7B2526A08D00B74E68 /* AppDelegate.swift */; };
+		F9230B7E2526A08D00B74E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9230B7D2526A08D00B74E68 /* SceneDelegate.swift */; };
+		F9230B802526A08D00B74E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9230B7F2526A08D00B74E68 /* ViewController.swift */; };
+		F9230B832526A08D00B74E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9230B812526A08D00B74E68 /* Main.storyboard */; };
+		F9230B852526A08E00B74E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9230B842526A08E00B74E68 /* Assets.xcassets */; };
+		F9230B882526A08E00B74E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9230B862526A08E00B74E68 /* LaunchScreen.storyboard */; };
+		F9230B932526A08E00B74E68 /* ghettogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9230B922526A08E00B74E68 /* ghettogramTests.swift */; };
+		F9230B9E2526A08E00B74E68 /* ghettogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9230B9D2526A08E00B74E68 /* ghettogramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9230B8F2526A08E00B74E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9230B702526A08D00B74E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9230B772526A08D00B74E68;
+			remoteInfo = ghettogram;
+		};
+		F9230B9A2526A08E00B74E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9230B702526A08D00B74E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9230B772526A08D00B74E68;
+			remoteInfo = ghettogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9230B782526A08D00B74E68 /* ghettogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ghettogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9230B7B2526A08D00B74E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9230B7D2526A08D00B74E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9230B7F2526A08D00B74E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9230B822526A08D00B74E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9230B842526A08E00B74E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9230B872526A08E00B74E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9230B892526A08E00B74E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9230B8E2526A08E00B74E68 /* ghettogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghettogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9230B922526A08E00B74E68 /* ghettogramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghettogramTests.swift; sourceTree = "<group>"; };
+		F9230B942526A08E00B74E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9230B992526A08E00B74E68 /* ghettogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghettogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9230B9D2526A08E00B74E68 /* ghettogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghettogramUITests.swift; sourceTree = "<group>"; };
+		F9230B9F2526A08E00B74E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9230B752526A08D00B74E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9230B8B2526A08E00B74E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9230B962526A08E00B74E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9230B6F2526A08D00B74E68 = {
+			isa = PBXGroup;
+			children = (
+				F9230B7A2526A08D00B74E68 /* ghettogram */,
+				F9230B912526A08E00B74E68 /* ghettogramTests */,
+				F9230B9C2526A08E00B74E68 /* ghettogramUITests */,
+				F9230B792526A08D00B74E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9230B792526A08D00B74E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9230B782526A08D00B74E68 /* ghettogram.app */,
+				F9230B8E2526A08E00B74E68 /* ghettogramTests.xctest */,
+				F9230B992526A08E00B74E68 /* ghettogramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9230B7A2526A08D00B74E68 /* ghettogram */ = {
+			isa = PBXGroup;
+			children = (
+				F9230B7B2526A08D00B74E68 /* AppDelegate.swift */,
+				F9230B7D2526A08D00B74E68 /* SceneDelegate.swift */,
+				F9230B7F2526A08D00B74E68 /* ViewController.swift */,
+				F9230B812526A08D00B74E68 /* Main.storyboard */,
+				F9230B842526A08E00B74E68 /* Assets.xcassets */,
+				F9230B862526A08E00B74E68 /* LaunchScreen.storyboard */,
+				F9230B892526A08E00B74E68 /* Info.plist */,
+			);
+			path = ghettogram;
+			sourceTree = "<group>";
+		};
+		F9230B912526A08E00B74E68 /* ghettogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9230B922526A08E00B74E68 /* ghettogramTests.swift */,
+				F9230B942526A08E00B74E68 /* Info.plist */,
+			);
+			path = ghettogramTests;
+			sourceTree = "<group>";
+		};
+		F9230B9C2526A08E00B74E68 /* ghettogramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9230B9D2526A08E00B74E68 /* ghettogramUITests.swift */,
+				F9230B9F2526A08E00B74E68 /* Info.plist */,
+			);
+			path = ghettogramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9230B772526A08D00B74E68 /* ghettogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9230BA22526A08E00B74E68 /* Build configuration list for PBXNativeTarget "ghettogram" */;
+			buildPhases = (
+				F9230B742526A08D00B74E68 /* Sources */,
+				F9230B752526A08D00B74E68 /* Frameworks */,
+				F9230B762526A08D00B74E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ghettogram;
+			productName = ghettogram;
+			productReference = F9230B782526A08D00B74E68 /* ghettogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9230B8D2526A08E00B74E68 /* ghettogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9230BA52526A08E00B74E68 /* Build configuration list for PBXNativeTarget "ghettogramTests" */;
+			buildPhases = (
+				F9230B8A2526A08E00B74E68 /* Sources */,
+				F9230B8B2526A08E00B74E68 /* Frameworks */,
+				F9230B8C2526A08E00B74E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9230B902526A08E00B74E68 /* PBXTargetDependency */,
+			);
+			name = ghettogramTests;
+			productName = ghettogramTests;
+			productReference = F9230B8E2526A08E00B74E68 /* ghettogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9230B982526A08E00B74E68 /* ghettogramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9230BA82526A08E00B74E68 /* Build configuration list for PBXNativeTarget "ghettogramUITests" */;
+			buildPhases = (
+				F9230B952526A08E00B74E68 /* Sources */,
+				F9230B962526A08E00B74E68 /* Frameworks */,
+				F9230B972526A08E00B74E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9230B9B2526A08E00B74E68 /* PBXTargetDependency */,
+			);
+			name = ghettogramUITests;
+			productName = ghettogramUITests;
+			productReference = F9230B992526A08E00B74E68 /* ghettogramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9230B702526A08D00B74E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Codepath;
+				TargetAttributes = {
+					F9230B772526A08D00B74E68 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F9230B8D2526A08E00B74E68 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F9230B772526A08D00B74E68;
+					};
+					F9230B982526A08E00B74E68 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F9230B772526A08D00B74E68;
+					};
+				};
+			};
+			buildConfigurationList = F9230B732526A08D00B74E68 /* Build configuration list for PBXProject "ghettogram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9230B6F2526A08D00B74E68;
+			productRefGroup = F9230B792526A08D00B74E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9230B772526A08D00B74E68 /* ghettogram */,
+				F9230B8D2526A08E00B74E68 /* ghettogramTests */,
+				F9230B982526A08E00B74E68 /* ghettogramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9230B762526A08D00B74E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9230B882526A08E00B74E68 /* LaunchScreen.storyboard in Resources */,
+				F9230B852526A08E00B74E68 /* Assets.xcassets in Resources */,
+				F9230B832526A08D00B74E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9230B8C2526A08E00B74E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9230B972526A08E00B74E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9230B742526A08D00B74E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9230B802526A08D00B74E68 /* ViewController.swift in Sources */,
+				F9230B7C2526A08D00B74E68 /* AppDelegate.swift in Sources */,
+				F9230B7E2526A08D00B74E68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9230B8A2526A08E00B74E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9230B932526A08E00B74E68 /* ghettogramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9230B952526A08E00B74E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9230B9E2526A08E00B74E68 /* ghettogramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9230B902526A08E00B74E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9230B772526A08D00B74E68 /* ghettogram */;
+			targetProxy = F9230B8F2526A08E00B74E68 /* PBXContainerItemProxy */;
+		};
+		F9230B9B2526A08E00B74E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9230B772526A08D00B74E68 /* ghettogram */;
+			targetProxy = F9230B9A2526A08E00B74E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9230B812526A08D00B74E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9230B822526A08D00B74E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9230B862526A08E00B74E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9230B872526A08E00B74E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9230BA02526A08E00B74E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9230BA12526A08E00B74E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9230BA32526A08E00B74E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MQNNVGBGK;
+				INFOPLIST_FILE = ghettogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.ghettogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9230BA42526A08E00B74E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MQNNVGBGK;
+				INFOPLIST_FILE = ghettogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.ghettogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9230BA62526A08E00B74E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MQNNVGBGK;
+				INFOPLIST_FILE = ghettogramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.ghettogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ghettogram.app/ghettogram";
+			};
+			name = Debug;
+		};
+		F9230BA72526A08E00B74E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MQNNVGBGK;
+				INFOPLIST_FILE = ghettogramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.ghettogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ghettogram.app/ghettogram";
+			};
+			name = Release;
+		};
+		F9230BA92526A08E00B74E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MQNNVGBGK;
+				INFOPLIST_FILE = ghettogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.ghettogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ghettogram;
+			};
+			name = Debug;
+		};
+		F9230BAA2526A08E00B74E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MQNNVGBGK;
+				INFOPLIST_FILE = ghettogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.ghettogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ghettogram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9230B732526A08D00B74E68 /* Build configuration list for PBXProject "ghettogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9230BA02526A08E00B74E68 /* Debug */,
+				F9230BA12526A08E00B74E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9230BA22526A08E00B74E68 /* Build configuration list for PBXNativeTarget "ghettogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9230BA32526A08E00B74E68 /* Debug */,
+				F9230BA42526A08E00B74E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9230BA52526A08E00B74E68 /* Build configuration list for PBXNativeTarget "ghettogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9230BA62526A08E00B74E68 /* Debug */,
+				F9230BA72526A08E00B74E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9230BA82526A08E00B74E68 /* Build configuration list for PBXNativeTarget "ghettogramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9230BA92526A08E00B74E68 /* Debug */,
+				F9230BAA2526A08E00B74E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9230B702526A08D00B74E68 /* Project object */;
+}
