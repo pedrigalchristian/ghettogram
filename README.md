@@ -24,3 +24,5 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/IdOTu5QUJb.gif' title='Ghettogram Walkthrough' width='250' alt='Video Walkthrough' />
+
+<img src="http://g.recordit.co/IdOTu5QUJb.gif" width=250><br>
